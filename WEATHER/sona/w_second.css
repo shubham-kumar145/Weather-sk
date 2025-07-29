@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(216, 199, 199, 0.92);
+
+    /* background: rgba(255, 240, 245, 0.85); */
+
+}
+
+#sec_container {
+    /* align-items: center; */
+    justify-self: center;
+    /* align-items: center; */
+    margin-top: 1%;
+    height: 95%;
+    width: 98%;
+    border-radius: 20px;
+    background: linear-gradient(to right, #070436, #07073b, #041077);
+    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-between;
+}
+
+#bar1 {
+    /* height: 100%; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    /* background-color: #7a789d; */
+    border:solid white 1px ;
+    border-radius: 10px;
+    margin:1.6rem;
+   /* opacity:0.4;
+   background-color: aliceblue; */
+   /* background-color: wheat; */
+}
+
+#bar2 {
+    border-radius: 10px;
+    border:solid white 1px ;
+    margin:1.6rem;
+    /* height: 100%; */
+    width: 74%;
+    /* background-color: brown; */
+}
+
+#bar3{
+    width: 23%;
+    margin: .7rem .3rem;
+    border: .1rem solid white;
+    border-radius: 20px;
+}
+#bar1_search button1 {
+    background-color: #016cb9;
+}
+#bar1_search {
+    /* display: flex;
+    padding: 1rem 0;
+    /* font-size: large; 
+    justify-content: center;
+    align-items: center; */
+    /* position: relative; */
+    /* margin-left: 100rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin: 1rem auto;
+}
+
+#cityInput {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 5px; */
+    transform: translatex(-150%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+}
+
+.search-btn:hover {
+    color: #007BFF;
+}
+
+#bar1_search input {
+    width: 70%;
+    height: 1.6rem;
+    border: none;
+}
+
+
+#bar1_symbol{
+    /* justify-self: center; */
+    height: 25%;
+    width: 90%;
+    display: flex;
+    margin-top: 2rem;
+    /* flex-direction: column; */
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: #ccc; */
+}
+#weatherIcon{
+    height: 12rem;
+    width: 12rem;
+    /* justify-content: center; */
+}
+
+#bar1_tem{
+    /* margin-top: .5rem; */
+    height: 55%;
+    width: 80%;
+    /* gap: 7rem; */
+    /* background-color: #ccc; */
+}
+#bar1_tem #Temperature{
+    /* margin-top: 5rem; */
+    color: #ccc;
+    font-size: 2.5rem;
+}
+#bar1_tem #day{
+    color: #ccc;
+    margin-top: .5rem;
+    font-size: 1.1rem;
+}
+#bar1_day{
+    margin-top: 1rem;
+    height: 10%;
+    width: 80%;
+    background-color: #ccc;
+}
+
+
+#weather_icon_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#day {
+    margin-top: 10px;
+    color: white; /* or another color depending on your theme */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* cart */
+#temp_forecast{
+    color:white;
+    font-size: 1.8rem;
+ 
+}

@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="./w_second.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js -->
+</head>
+
+<body id="body2">
+  <div id="sec_container">
+    <div id="bar1">
+      <div id="bar1_search">
+        <input type="text" id="cityInput" placeholder="Search city..." />
+        <button class="search-btn" id="first_page_button" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div id="error"></div>
+
+      <div id="bar1_symbol">
+        <div id="weather_icon_wrapper">
+          <img id="weatherIcon" alt="Weather Icon" />
+          <p id="day"></p>
+        </div>
+
+        <div id="bar1_tem">
+          <h1 id="wish">h</h1><br />
+          <strong id="Temperature">C</strong>
+          <h4 id="date_time">ayushi</h4>
+          <div id="add_info_bar1">
+            <p id="humidity">humidity</p>
+            <p id="wind">wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bar2">
+      <a href="./weather[1].html">Back</a>
+      <div id="bar2_inner_box1">
+        <p id="temp_forecast">Hourly Temperature Forecast</p>
+        <canvas id="tempChart" width="550" height="150"></canvas>
+      </div>
+      <div id="bar2_inner_box2">
+        <h1></h1>
+        <div id="details1"></div>
+        <div id="deatils2"></div>
+      </div>
+    </div>
+    <div id="bar3">
+      
+    </div>
+  </div>
+
+  <script src="./w_second.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
